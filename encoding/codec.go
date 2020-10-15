@@ -3,11 +3,12 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
 	"github.com/tendermint/tendermint/libs/json"
 	pc "github.com/tendermint/tendermint/proto/tendermint/crypto"
+
+	"github.com/marbar3778/crypto"
+	"github.com/marbar3778/crypto/ed25519"
+	"github.com/marbar3778/crypto/secp256k1"
 )
 
 func init() {

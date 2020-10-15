@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/marbar3778/crypto"
 )
 
 // the purpose of this test is primarily to ensure that the randomness

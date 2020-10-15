@@ -10,7 +10,7 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	. "github.com/tendermint/tendermint/libs/test"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/marbar3778/crypto/tmhash"
 )
 
 type testItem []byte
