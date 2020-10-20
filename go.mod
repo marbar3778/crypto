@@ -6,6 +6,7 @@ require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200626160457-b38283118816
 	github.com/btcsuite/btcd v0.21.0-beta
 	github.com/btcsuite/btcutil v1.0.2
+	github.com/hdevalence/ed25519consensus v0.0.0-20200813231810-1694d75e712a
 	github.com/stretchr/testify v1.6.1
 	github.com/tendermint/go-amino v0.14.1 // indirect
 	github.com/tendermint/tendermint v0.34.0-rc4.0.20201015101402-ce824d6fadd2

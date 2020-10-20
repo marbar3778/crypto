@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/hdevalence/ed25519consensus"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	"golang.org/x/crypto/ed25519"
 
@@ -151,7 +152,7 @@ func (pubKey PubKey) VerifySignature(msg []byte, sig []byte) bool {
 		return false
 	}
 
-	return ed25519.Verify(ed25519.PublicKey(pubKey), msg, sig)
+	return ed25519consensus.Verify(ed25519.PublicKey(pubKey), msg, sig)
 }
 
 func (pubKey PubKey) String() string {
